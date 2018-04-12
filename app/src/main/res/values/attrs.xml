@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StateLoadingView">
+        <attr name="ngw_loading_view_size" format="dimension"/>
+        <attr name="android:color"/>
+        <attr name="ngw_loading_progress_style">
+            <enum name="progress" value="0"/>
+            <enum name="loading" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <attr name="NGWLoadingStyle" format="reference"/>
+
+</resources>

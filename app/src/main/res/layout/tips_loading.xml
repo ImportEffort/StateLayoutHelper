@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/load_more_loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:minHeight="200dp"
+    android:background="#FFF"
+    android:orientation="horizontal">
+
+    <tips.StateLoadingView
+        android:id="@+id/load_more_loading_image"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginRight="20dp"
+        android:color="#ff666666"
+        app:ngw_loading_progress_style="loading"
+        app:ngw_loading_view_size="21dp"/>
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="@string/refreshview_refreshing"
+        android:textColor="#ff666666"
+        android:textSize="14sp"/>
+</LinearLayout>
